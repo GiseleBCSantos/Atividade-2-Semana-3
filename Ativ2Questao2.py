@@ -1,4 +1,5 @@
 #Questão 2
-nome = input().strip()
-sobrenome = input().strip()
-print(f"{nome} {sobrenome}")
+nome = input("Insira seu nome: ").strip()
+sobrenome = input("Insira seu sobrenome: ").strip()
+print(f"Seu nome completo é {nome} {sobrenome}.")
+
